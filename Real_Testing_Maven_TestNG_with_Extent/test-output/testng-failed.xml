@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="extentListeners.ExtentListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Ninja_Register.NewTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Ninja_Register.NewTest -->
+      <class name="testCases.ShoppingTestCase">
+        <methods>
+          <include name="selectCurrency"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testCases.ShoppingTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12507" started-at="2020-03-08T04:11:31Z" finished-at="2020-03-08T04:11:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12507" started-at="2020-03-08T04:11:31Z" finished-at="2020-03-08T04:11:44Z">
+      <class name="Ninja_Register.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Ninja_Register.NewTest@5dfcfece]" name="beforeTest" is-config="true" duration-ms="6108" started-at="2020-03-07T23:11:31Z" finished-at="2020-03-07T23:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="goToWebSite()[pri:0, instance:Ninja_Register.NewTest@5dfcfece]" name="goToWebSite" duration-ms="2332" started-at="2020-03-07T23:11:38Z" finished-at="2020-03-07T23:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToWebSite -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Ninja_Register.NewTest@5dfcfece]" name="afterTest" is-config="true" duration-ms="4045" started-at="2020-03-07T23:11:40Z" finished-at="2020-03-07T23:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Ninja_Register.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
